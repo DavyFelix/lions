@@ -1,73 +1,141 @@
-# Welcome to your Lovable project
+# 🚗 Lions Seminovos — Front-end React
 
-## Project info
+Projeto front-end desenvolvido como parte de um **desafio técnico**, inspirado no site público da **Lions Seminovos**, com foco em experiência do usuário, layout moderno e organização de código.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🔗 Repositório: https://github.com/DavyFelix/lions
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🎯 Objetivo do projeto
 
-**Use Lovable**
+O objetivo deste projeto foi criar uma aplicação front-end **inspirada** (não idêntica) no site da Lions Seminovos, contemplando as seguintes páginas principais:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **Página Inicial**
+- **Catálogo de veículos**
+- **Agende uma visita**
 
-Changes made via Lovable will be committed automatically to this repo.
+O foco esteve em:
+- Layout moderno (nível marketplace, como Webmotors)
+- Responsividade
+- Clareza visual
+- Código organizado e escalável
 
-**Use your preferred IDE**
+Não foi necessário implementar todas as funcionalidades reais do site original, apenas utilizar como referência visual e conceitual.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🧠 Decisões técnicas
 
-Follow these steps:
+### 🔹 Stack utilizada
+- **React + Vite** — rapidez no setup e melhor performance em desenvolvimento
+- **Bootstrap 5** — grid, responsividade e componentes base
+- **CSS customizado** — para alcançar um visual mais premium
+- **React Router** — navegação entre páginas
+- **JavaScript moderno (ES6+)**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🔹 Por que React + Vite?
+- Setup rápido
+- Hot reload eficiente
+- Estrutura ideal para projetos modernos
+- Muito utilizado no mercado atualmente
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🧱 Organização do projeto
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+A estrutura foi pensada para facilitar manutenção e crescimento:
+
+```bash
+src/
+├── components/        # Componentes reutilizáveis (Header, Footer, Cards)
+├── pages/             # Páginas principais (Home, Catalog, Schedule)
+├── assets/            # Imagens, vídeos e arquivos estáticos
+├── styles/            # Estilos globais e específicos
+├── App.jsx            # Configuração de rotas
+└── main.jsx           # Ponto de entrada da aplicação
+```
+🔹 Separação de responsabilidades
+Pages → responsáveis pela estrutura das telas
+
+Components → elementos reutilizáveis
+
+Styles → isolamento de estilos para melhor controle visual
+
+🎨 Design e UX
+O design foi inspirado em grandes marketplaces automotivos, priorizando:
+
+Hierarquia visual clara
+
+CTAs bem destacados
+
+Formulários intuitivos
+
+Layout limpo e profissional
+
+Responsividade para desktop, tablet e mobile
+
+O formulário de Agendamento de Visita foi tratado como um ponto central da experiência, com destaque visual e texto institucional reforçando confiança e atendimento humano.
+
+🚀 Como rodar o projeto localmente
+✅ Pré-requisitos
+Node.js v18+
+
+npm ou yarn
+
+▶️ Passo a passo
+Clone o repositório:
+
+```bash
+git clone https://github.com/DavyFelix/lions.git
+```
+Acesse a pasta do projeto:
+
+```bash
+cd lions
+```
+Instale as dependências:
+
+```bash
+npm install
+```
+Rode o projeto:
+
+```bash
 npm run dev
 ```
+A aplicação estará disponível em:
 
-**Edit a file directly in GitHub**
+```bash
+http://localhost:5173
+```
+🌐 Funcionalidades implementadas
+Página inicial com hero moderno
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Catálogo de veículos (dados simulados)
 
-**Use GitHub Codespaces**
+Página de agendamento de visita
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Footer completo com navegação, contato e redes sociais
 
-## What technologies are used for this project?
+Layout responsivo
 
-This project is built with:
+Botões com links externos (site oficial)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+📌 Considerações finais
+Este projeto foi desenvolvido com foco em:
 
-## How can I deploy this project?
+Boas práticas de front-end
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Clareza de código
 
-## Can I connect a custom domain to my Lovable project?
+Experiência do usuário
 
-Yes, you can!
+Organização e escalabilidade
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Ele representa um cenário real de aplicação front-end para o setor automotivo, demonstrando capacidade de transformar um layout de referência em uma solução funcional e moderna.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+👨‍💻 Autor
+Davy de Souza
+Apaixonado por tecnologia, front-end e criação de experiências digitais.
+
+🔗 GitHub: https://github.com/DavyFelix
